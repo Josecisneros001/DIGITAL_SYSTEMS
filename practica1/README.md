@@ -1,31 +1,39 @@
 
-#Hello World 
-cree hello_world.vhdl
+# Hello World 
+## Create 
+#### hello_world.vhdl
+## Run
+#### ghdl -a hello_world.vhdl 
+#### ghdl -e hello_world
+#### ghdl -r hello_world
+## OUTPUT 
+[hello_world.png](hello_world.png)
 
-ghdl -a hello_world.vhdl
-ghdl -e hello_world
-ghdl -r hello_world
+# Heartbeat 
+## Create
+#### heartbeat.vhdl
+## Run
+#### ghdl -a heartbeat.vhdl
+#### ghdl -e heartbeat
+#### ghdl -r heartbeat
+#### ghdl -r heartbeat --wave=wave.ghw
 
-#Heartbeat 
-cree heartbeat.vhdl
+## Open file wave.ghw in gtkwave
 
-ghdl -a heartbeat.vhdl
-ghdl -e heartbeat
-ghdl -r heartbeat
+## OUTPUT
+[heartbeat.png](heartbeat.png)
+[wave.png](wave.png)
 
-ghdl -r heartbeat --wave=wave.ghw
-gtkwave wave.ghw
-OUTPUT: [wave.png](wave.png)
-
-#Adder
-Cree adder.vhdl 
-
-run ghdl -a adder.vhdl
-
-Cree adder_tb.vhdl 
-
-run 
-if ($?) { ghdl -a adder_tb.vhdl } ; if ($?) { ghdl -e adder_tb } ; if ($?) { ghdl -r adder_tb }
-
-OUTPUT:
-adder_tb.vhdl:52:9:@8ns:(assertion note): end of test
+# Adder
+## Create
+#### adder.vhdl 
+## Run
+#### ghdl -a adder.vhdl
+## Create
+#### adder_tb.vhdl 
+## Run
+#### ghdl -a adder_tb.vhdl
+#### ghdl -e adder_tb
+#### ghdl -r adder_tb
+## OUTPUT
+[adder_tb.png](adder_tb.png)
