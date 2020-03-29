@@ -1,0 +1,68 @@
+$date
+  Wed Mar 25 19:02:06 2020
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$scope module standard $end
+$upscope $end
+$scope module std_logic_1164 $end
+$upscope $end
+$scope module mux_tb $end
+$var reg 4 ! x[3:0] $end
+$var reg 4 " y[3:0] $end
+$var reg 1 # sel $end
+$var reg 4 $ res[3:0] $end
+$scope module uut $end
+$var reg 4 % x[3:0] $end
+$var reg 4 & y[3:0] $end
+$var reg 1 ' sel $end
+$var reg 4 ( res[3:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+bUUUU !
+bUUUU "
+U#
+bUUUU $
+bUUUU %
+bUUUU &
+U'
+bUUUU (
+#20000000
+b0101 !
+b1111 "
+1#
+b0101 $
+b0101 %
+b1111 &
+1'
+b0101 (
+#40000000
+b1100 !
+b0000 "
+0#
+b0000 $
+b1100 %
+b0000 &
+0'
+b0000 (
+#60000000
+b1001 !
+b1011 "
+1#
+b1001 $
+b1001 %
+b1011 &
+1'
+b1001 (
+#80000000
+b0110 !
+b1110 "
+b0110 %
+b1110 &
+#90000000
