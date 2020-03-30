@@ -23,6 +23,9 @@ begin
             A<="1111";
             B<="0011";
             wait for 5 ns;
+            A<="0111";
+            B<="0011";
+            wait for 5 ns;
             wait;
     end process;
 end arch;
