@@ -1,0 +1,84 @@
+$date
+  Mon Mar 30 01:05:14 2020
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$scope module standard $end
+$upscope $end
+$scope module full_a_tb $end
+$var reg 2 ! s[1:0] $end
+$var reg 1 " cin $end
+$var reg 2 # z[1:0] $end
+$scope module fas0 $end
+$var reg 2 $ s[1:0] $end
+$var reg 1 % cin $end
+$var reg 2 & z[1:0] $end
+$var reg 4 ' a0[3:0] $end
+$var reg 4 ( a1[3:0] $end
+$var reg 1 ) notcin $end
+$scope module ms0 $end
+$var reg 4 * a[3:0] $end
+$var reg 2 + s[1:0] $end
+$var reg 1 , z $end
+$var reg 2 - nots[1:0] $end
+$var reg 4 . temp[3:0] $end
+$upscope $end
+$scope module ms1 $end
+$var reg 4 / a[3:0] $end
+$var reg 2 0 s[1:0] $end
+$var reg 1 1 z $end
+$var reg 2 2 nots[1:0] $end
+$var reg 4 3 temp[3:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+b01 !
+1"
+b10 #
+b01 $
+1%
+b10 &
+b1001 '
+b1110 (
+0)
+b1001 *
+b01 +
+0,
+b10 -
+b0000 .
+b1110 /
+b01 0
+11
+b10 2
+b0010 3
+#5000000
+b10 !
+b10 #
+b10 $
+b10 &
+b10 +
+b01 -
+b10 0
+11
+b01 2
+b0100 3
+#10000000
+b00 !
+b01 #
+b00 $
+b01 &
+b00 +
+1,
+b11 -
+b0001 .
+b00 0
+01
+b11 2
+b0000 3
+#15000000
