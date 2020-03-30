@@ -1,0 +1,4 @@
+v 4
+file . "FF_JK.vhdl" "eebc6dd1f1b683bc111dc871fbd7a22fc9803125" "20200330145658.621":
+  entity ff_jk at 1( 0) + 0 on 12;
+  architecture arch of ff_jk at 8( 111) + 0 on 13;
