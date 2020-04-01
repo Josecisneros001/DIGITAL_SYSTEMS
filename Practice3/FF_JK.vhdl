@@ -1,6 +1,6 @@
 entity FF_JK is
     port(
-        CLK,J,K,PRESET,CLEAR: in bit;
+        CLK,J,K,PRESET,CLEAR,EN: in bit;
         Q,Qn: out bit
         );
 end entity;
@@ -12,10 +12,13 @@ begin
     Qn<=not intQ;
     process(CLK,PRESET,CLEAR)
         begin
-        if CLEAR='0' then
-            Q<='0';
+
+        if EN='0' then
+            null;
+        elsif CLEAR='0' then
+            intQ<='0';
         elsif PRESET='0' then
-            Q<='1';
+            intQ<='1';
         elsif CLK'event and CLK='1' then
             if J = '0' and K = '0' then
                 intQ <= intQ;

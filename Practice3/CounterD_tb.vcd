@@ -1,0 +1,520 @@
+$date
+  Mon Mar 30 15:31:37 2020
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$scope module standard $end
+$upscope $end
+$scope module counterd_tb $end
+$var reg 1 ! clk $end
+$var reg 1 " clear $end
+$var reg 1 # preset $end
+$var reg 1 $ en $end
+$var reg 4 % z[3:0] $end
+$scope module fs0 $end
+$var reg 1 & clk $end
+$var reg 1 ' clear $end
+$var reg 1 ( preset $end
+$var reg 1 ) en $end
+$var reg 4 * z[3:0] $end
+$var reg 1 + clearint $end
+$var reg 1 , presetint $end
+$var reg 4 - zint[3:0] $end
+$scope module fs0 $end
+$var reg 1 . clk $end
+$var reg 1 / clear $end
+$var reg 1 0 preset $end
+$var reg 1 1 en $end
+$var reg 4 2 z[3:0] $end
+$var reg 4 3 intq[3:0] $end
+$var reg 4 4 intjk[3:0] $end
+$var reg 4 5 intqn[3:0] $end
+$scope module f0 $end
+$var reg 1 6 clk $end
+$var reg 1 7 j $end
+$var reg 1 8 k $end
+$var reg 1 9 preset $end
+$var reg 1 : clear $end
+$var reg 1 ; en $end
+$var reg 1 < q $end
+$var reg 1 = qn $end
+$var reg 1 > intq $end
+$upscope $end
+$scope module f1 $end
+$var reg 1 ? clk $end
+$var reg 1 @ j $end
+$var reg 1 A k $end
+$var reg 1 B preset $end
+$var reg 1 C clear $end
+$var reg 1 D en $end
+$var reg 1 E q $end
+$var reg 1 F qn $end
+$var reg 1 G intq $end
+$upscope $end
+$scope module f2 $end
+$var reg 1 H clk $end
+$var reg 1 I j $end
+$var reg 1 J k $end
+$var reg 1 K preset $end
+$var reg 1 L clear $end
+$var reg 1 M en $end
+$var reg 1 N q $end
+$var reg 1 O qn $end
+$var reg 1 P intq $end
+$upscope $end
+$scope module f3 $end
+$var reg 1 Q clk $end
+$var reg 1 R j $end
+$var reg 1 S k $end
+$var reg 1 T preset $end
+$var reg 1 U clear $end
+$var reg 1 V en $end
+$var reg 1 W q $end
+$var reg 1 X qn $end
+$var reg 1 Y intq $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+0!
+0"
+1#
+1$
+b0000 %
+0&
+0'
+1(
+1)
+b0000 *
+0+
+1,
+b0000 -
+0.
+0/
+10
+11
+b0000 2
+b0000 3
+b0001 4
+b1111 5
+06
+17
+18
+19
+0:
+1;
+0<
+1=
+0>
+0?
+0@
+0A
+1B
+0C
+1D
+0E
+1F
+0G
+0H
+0I
+0J
+1K
+0L
+1M
+0N
+1O
+0P
+0Q
+0R
+0S
+1T
+0U
+1V
+0W
+1X
+0Y
+#5000000
+1!
+1"
+1&
+1'
+1+
+1.
+1/
+16
+1:
+1?
+1C
+1H
+1L
+1Q
+1U
+#10000000
+0!
+0&
+0.
+06
+0?
+0H
+0Q
+#15000000
+1!
+b0001 %
+1&
+b0001 *
+b0001 -
+1.
+b0001 2
+b0001 3
+b0011 4
+b1110 5
+16
+1<
+0=
+1>
+1?
+1@
+1A
+1H
+1Q
+#20000000
+0!
+0&
+0.
+06
+0?
+0H
+0Q
+#25000000
+1!
+b0010 %
+1&
+b0010 *
+b0010 -
+1.
+b0010 2
+b0010 3
+b0001 4
+b1101 5
+16
+0<
+1=
+0>
+1?
+0@
+0A
+1E
+0F
+1G
+1H
+1Q
+#30000000
+0!
+0&
+0.
+06
+0?
+0H
+0Q
+#35000000
+1!
+b0011 %
+1&
+b0011 *
+b0011 -
+1.
+b0011 2
+b0011 3
+b0111 4
+b1100 5
+16
+1<
+0=
+1>
+1?
+1@
+1A
+1H
+1I
+1J
+1Q
+#40000000
+0!
+0&
+0.
+06
+0?
+0H
+0Q
+#45000000
+1!
+b0100 %
+1&
+b0100 *
+b0100 -
+1.
+b0100 2
+b0100 3
+b0001 4
+b1011 5
+16
+0<
+1=
+0>
+1?
+0@
+0A
+0E
+1F
+0G
+1H
+0I
+0J
+1N
+0O
+1P
+1Q
+0R
+0S
+#50000000
+0!
+0&
+0.
+06
+0?
+0H
+0Q
+#55000000
+1!
+b0101 %
+1&
+b0101 *
+b0101 -
+1.
+b0101 2
+b0101 3
+b0011 4
+b1010 5
+16
+1<
+0=
+1>
+1?
+1@
+1A
+1H
+1Q
+#60000000
+0!
+0&
+0.
+06
+0?
+0H
+0Q
+#65000000
+1!
+b0110 %
+1&
+b0110 *
+b0110 -
+1.
+b0110 2
+b0110 3
+b0001 4
+b1001 5
+16
+0<
+1=
+0>
+1?
+0@
+0A
+1E
+0F
+1G
+1H
+1Q
+#70000000
+0!
+0&
+0.
+06
+0?
+0H
+0Q
+#75000000
+1!
+b0111 %
+1&
+b0111 *
+b0111 -
+1.
+b0111 2
+b0111 3
+b1111 4
+b1000 5
+16
+1<
+0=
+1>
+1?
+1@
+1A
+1H
+1I
+1J
+1Q
+1R
+1S
+#80000000
+0!
+0&
+0.
+06
+0?
+0H
+0Q
+#85000000
+1!
+b1000 %
+1&
+b1000 *
+b1000 -
+1.
+b1000 2
+b1000 3
+b0001 4
+b0111 5
+16
+0<
+1=
+0>
+1?
+0@
+0A
+0E
+1F
+0G
+1H
+0I
+0J
+0N
+1O
+0P
+1Q
+0R
+0S
+1W
+0X
+1Y
+#90000000
+0!
+0&
+0.
+06
+0?
+0H
+0Q
+#95000000
+1!
+b1001 %
+1&
+b1001 *
+b1001 -
+1.
+b1001 2
+b1001 3
+b0011 4
+b0110 5
+16
+1<
+0=
+1>
+1?
+1@
+1A
+1H
+1Q
+#100000000
+0!
+0&
+0.
+06
+0?
+0H
+0Q
+#105000000
+1!
+b0000 %
+1&
+b0000 *
+1+
+b0000 -
+1.
+1/
+b0000 2
+b0000 3
+b0001 4
+b1111 5
+16
+1:
+0<
+1=
+0>
+1?
+0@
+0A
+1C
+0E
+1F
+0G
+1H
+1L
+1Q
+1U
+0W
+1X
+0Y
+#110000000
+0!
+0&
+0.
+06
+0?
+0H
+0Q
+#115000000
+1!
+b0001 %
+1&
+b0001 *
+b0001 -
+1.
+b0001 2
+b0001 3
+b0011 4
+b1110 5
+16
+1<
+0=
+1>
+1?
+1@
+1A
+1H
+1Q
+#120000000
+0!
+0&
+0.
+06
+0?
+0H
+0Q
