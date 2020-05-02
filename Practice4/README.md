@@ -21,6 +21,15 @@
 #### [bash run.sh](run.sh)
 
 ### Simulation
-Output: Z<= DP,G,F,E,D,C,B,A
-![Simulation  0ns- 50ns](Simulation_1.png)
+**Output:** E and Z(DP,G,F,E,D,C,B,A)
+#### Simulation 1
+**Input:** 
+A<="1000000000000001";
+D<="0000";
+![Simulation  0ns- 50ns](Simulation_1.png)  
+
+#### Simulation 2
+**Input:**
+A<="0010000110001001";
+D<="0010";
 ![Simulation 50ns-100ns](Simulation_2.png)
