@@ -1,13 +1,15 @@
-entity Counter1_12_tb is
-end Counter1_12_tb;
+entity Counter0_59_tb is
+end Counter0_59_tb;
  
-architecture arch of Counter1_12_tb is
-    component Counter1_12 is
+architecture arch of Counter0_59_tb is
+    component Counter0_59 is
         port(
             CLK: in bit;
             CLEAR: in bit;
             PRESET: in bit;
             EN: in bit;
+            RCO : out bit;
+            NCLK: out bit;
             Z: out bit_vector(7 downto 0)
             );
     end component;
@@ -15,9 +17,11 @@ architecture arch of Counter1_12_tb is
     signal CLEAR: bit := '1';
     signal PRESET: bit := '1';
     signal EN: bit := '1';
+    signal RCO: bit := '1';
+    signal NCLK: bit := '1';
     signal Z: bit_vector(7 downto 0);
 begin
-    FS0: Counter1_12 port map(CLK,CLEAR,PRESET,EN,Z);
+    FS0: Counter0_59 port map(CLK,CLEAR,PRESET,EN,RCO,NCLK,Z);
     CLK_process : process
     begin
         wait for 5 ns;

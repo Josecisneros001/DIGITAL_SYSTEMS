@@ -1,23 +1,25 @@
-entity Counter1_12_tb is
-end Counter1_12_tb;
+entity clock_tb is
+end clock_tb;
  
-architecture arch of Counter1_12_tb is
-    component Counter1_12 is
+architecture arch of clock_tb is
+    component clock is
         port(
             CLK: in bit;
             CLEAR: in bit;
             PRESET: in bit;
             EN: in bit;
-            Z: out bit_vector(7 downto 0)
+            HOURS: out bit_vector(7 downto 0);
+            MINUTES: out bit_vector(7 downto 0)
             );
     end component;
     signal CLK: bit := '0';
     signal CLEAR: bit := '1';
     signal PRESET: bit := '1';
     signal EN: bit := '1';
-    signal Z: bit_vector(7 downto 0);
+    signal HOURS: bit_vector(7 downto 0);
+    signal MINUTES: bit_vector(7 downto 0);
 begin
-    FS0: Counter1_12 port map(CLK,CLEAR,PRESET,EN,Z);
+    FS0: clock port map(CLK,CLEAR,PRESET,EN,HOURS,MINUTES);
     CLK_process : process
     begin
         wait for 5 ns;
