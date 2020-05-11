@@ -1,21 +1,22 @@
 # DIGITAL_SYSTEMS 
 ## José Cisneros
 
-## Code
-### DataPath
-#### [datapath](datapath.vhdl)
-#### [comparator](comparator.vhdl)
-#### [mux](mux.vhdl)
-#### [mux_tb](mux_tb.vhdl)
-#### [ffd](ffd.vhdl)
-#### [register4bits](register4bits.vhdl)
-#### [register4bits_tb](register4bits_tb.vhdl)
-#### [substractor](substractor.vhdl)
-#### [substractor4bits_tb](substractor4bits_tb.vhdl)
-#### [substractor4bits](substractor4bits.vhdl)
-### Controller
-#### [controller](controller.vhdl)
-### Integration
+## DataPath
+### [datapath](datapath.vhdl)
+### [comparator](comparator.vhdl)
+### [mux](mux.vhdl)
+### [mux_tb](mux_tb.vhdl)
+### [ffd](ffd.vhdl)
+### [register4bits](register4bits.vhdl)
+### [register4bits_tb](register4bits_tb.vhdl)
+#### Register4Bits/OutputRegister
+![Register4Bits/OutputRegister](4BitRegister.png)
+### [substractor](substractor.vhdl)
+### [substractor4bits_tb](substractor4bits_tb.vhdl)
+### [substractor4bits](substractor4bits.vhdl)
+## Controller
+### [controller](controller.vhdl)
+## Integration
 ### [GDC_tb](GDC_tb.vhdl)
 ### [GDC](GDC.vhdl)
 
