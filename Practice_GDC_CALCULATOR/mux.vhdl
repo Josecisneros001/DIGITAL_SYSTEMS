@@ -11,12 +11,5 @@ end entity mux;
 
 architecture arch of mux is
 begin
-    process(sel)
-    begin
-        if sel = '1' then
-            res <= x;
-        elsif sel = '0' then
-            res <= y;
-        end if;
-    end process;
+    res <= x when sel ='0' else y;
 end arch;

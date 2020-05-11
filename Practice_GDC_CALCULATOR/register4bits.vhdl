@@ -10,22 +10,18 @@ entity register4bits is
 end register4bits;
 
 architecture arch of register4bits is
-    -- component ffd is 
-    -- port(
-    --     clk, d, reset : in std_logic;
-    --     q : out std_logic   
-    -- );
-    -- end component;
+    component ffd is
+        port (
+            clk, ld, d: in std_logic;
+            reset : in std_logic;
+            q : out std_logic
+        );
+    end component;
 begin
-    process(clk)
-    begin
-        if(reset = '1') then
-            d_out <= "0000";
-        elsif risinge
-
-    -- ffd0 : ffd port map(clk,d_in(0),reset,d_out(0));
-    -- ffd1 : ffd port map(clk,d_in(1),reset,d_out(1));
-    -- ffd2 : ffd port map(clk,d_in(2),reset,d_out(2));
-    -- ffd3 : ffd port map(clk,d_in(3),reset,d_out(3)); 
+    
+    ff_d0 : ffd port map (clk, ld, d_in(0),reset, d_out(0));
+    ff_d1 : ffd port map (clk, ld, d_in(1),reset, d_out(1));
+    ff_d2 : ffd port map (clk, ld, d_in(2),reset, d_out(2));
+    ff_d3 : ffd port map (clk, ld, d_in(3),reset, d_out(3));
 
 end arch;

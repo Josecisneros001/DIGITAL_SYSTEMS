@@ -20,7 +20,7 @@ begin
     UUT : substractor4bits port map (a, b, bin, bout, d);
 
     bin <= '0';
-    a <= x"1" after 0 ns, x"7" after 20 ns, x"0" after 100 ns; 
-    b <= x"1" after 0 ns, x"5" after 20 ns, x"0" after 100 ns;      
+    b <= x"1" after 0 ns, x"7" after 20 ns, x"0" after 100 ns; 
+    a <= x"1" after 0 ns, x"5" after 20 ns, x"0" after 100 ns;      
 
 end arch;

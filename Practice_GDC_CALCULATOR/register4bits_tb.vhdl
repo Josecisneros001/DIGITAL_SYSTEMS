@@ -26,7 +26,7 @@ begin
     end process;
     
     d_in <= "1010" after 20 ns, "1000" after 120 ns;
-    ld <= '1' after 30 ns, '0' after 60 ns, '1' after 130 ns;
+    ld <= '1' after 20 ns, '0' after 60 ns, '1' after 130 ns;
 
 
 end arch;

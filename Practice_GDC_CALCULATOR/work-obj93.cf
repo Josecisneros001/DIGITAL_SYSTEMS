@@ -1,28 +1,40 @@
 v 4
-file . "mealy_tb.vhdl" "61cb161540a46687b09b633e6cb7843c5ee98ce4" "20200422223005.315":
-  entity mealy_tb at 1( 0) + 0 on 55;
-  architecture arch of mealy_tb at 7( 76) + 0 on 56;
-file . "moore_tb.vhdl" "6569d9e62c12fb86e280c1702f7edf1febcc78a7" "20200422222936.115":
-  entity moore_tb at 1( 0) + 0 on 51;
-  architecture arch of moore_tb at 7( 76) + 0 on 52;
-file . "register4bits_tb.vhdl" "b2f2f4386799459b7f22257b601d46c7fbc2b8b2" "20200326014302.907":
-  entity register4bits_tb at 1( 0) + 0 on 45;
-  architecture arch of register4bits_tb at 7( 95) + 0 on 46;
-file . "ffd.vhdl" "c875cbecbb941d21223ad7ab189165d1e78b18b0" "20200326014035.193":
-  entity ffd at 1( 0) + 0 on 37;
-  architecture arch of ffd at 11( 153) + 0 on 38;
-file . "mux.vhdl" "7cdabf605258f0a8bac605b76e86cf30f313ff77" "20200326010206.327":
-  entity mux at 1( 0) + 0 on 19;
-  architecture arch of mux at 12( 214) + 0 on 20;
-file . "mux_tb.vhdl" "68c5e4c2f795d77e1c53cda9f317740d57d7c6b0" "20200326010206.370":
-  entity mux_tb at 1( 0) + 0 on 21;
-  architecture arch of mux_tb at 7( 74) + 0 on 22;
-file . "register4bits.vhdl" "d2b77422bc280c3b4449703a15808768b782e2de" "20200326014302.878":
-  entity register4bits at 1( 0) + 0 on 43;
-  architecture arch of register4bits at 12( 243) + 0 on 44;
-file . "moore.vhdl" "322a4e17be64870e50461cef4c300b609ee41de6" "20200422222931.717":
-  entity moore at 1( 0) + 0 on 49;
-  architecture arch of moore at 11( 171) + 0 on 50;
-file . "mealy.vhdl" "938d2a6ffdaeba008f9aad665410dd1665b1641e" "20200422223001.816":
-  entity mealy at 1( 0) + 0 on 53;
-  architecture arch of mealy at 11( 155) + 0 on 54;
+file . "GDC.vhdl" "8517c07c4c6ccd0dde544ff3a213ef13ee7b8d2d" "20200511193529.615":
+  entity gdc at 1( 0) + 0 on 550;
+  architecture arch of gdc at 12( 215) + 0 on 551;
+file . "datapath.vhdl" "746d1938add7d933be2b1d138e2b48bd78e78ace" "20200511193529.562":
+  entity datapath at 1( 0) + 0 on 548;
+  architecture arch of datapath at 17( 427) + 0 on 549;
+file . "substractor4bits.vhdl" "bc85a6623f9e4303be09fe1cf35f04465d46e972" "20200511193529.480":
+  entity substractor4bits at 1( 0) + 0 on 542;
+  architecture arch of substractor4bits at 14( 269) + 0 on 543;
+file . "register4bits.vhdl" "3f40a41049915c41a589bed3effdb361216f1dc1" "20200511193529.443":
+  entity register4bits at 1( 0) + 0 on 538;
+  architecture arch of register4bits at 12( 243) + 0 on 539;
+file . "ffd.vhdl" "4a57cdf5ef4c95be52470d6e1d840f135eb800a3" "20200511193529.425":
+  entity ffd at 1( 0) + 0 on 536;
+  architecture arch of ffd at 12( 179) + 0 on 537;
+file . "mux_tb.vhdl" "68c5e4c2f795d77e1c53cda9f317740d57d7c6b0" "20200502195313.159":
+  entity mux_tb at 1( 0) + 0 on 111;
+  architecture arch of mux_tb at 7( 74) + 0 on 112;
+file . "comparator.vhdl" "d4d20e5b7513a82dd7fae6a992a16539c8b0efde" "20200511193529.527":
+  entity comparator at 1( 0) + 0 on 544;
+  architecture arch of comparator at 11( 190) + 0 on 545;
+file . "mux.vhdl" "8a479f71ad7cad7a9f095877a75602200de0533f" "20200511193529.394":
+  entity mux at 1( 0) + 0 on 534;
+  architecture arch of mux at 12( 214) + 0 on 535;
+file . "register4bits_tb.vhdl" "dcbc721356e7cc6c166cefda980bc82b6c8dcbef" "20200502195313.216":
+  entity register4bits_tb at 1( 0) + 0 on 117;
+  architecture arch of register4bits_tb at 7( 95) + 0 on 118;
+file . "substractor.vhdl" "71d5734c24452479e6cd4320cc8574d1a848950d" "20200511193529.462":
+  entity substractor at 1( 0) + 0 on 540;
+  architecture arch of substractor at 11( 166) + 0 on 541;
+file . "substractor4bits_tb.vhdl" "bbb904df0a9cb5a70b87d879e07721bf9c2882d0" "20200502195313.270":
+  entity substractor4bits_tb at 1( 0) + 0 on 123;
+  architecture arch of substractor4bits_tb at 7( 87) + 0 on 124;
+file . "controller.vhdl" "d834efb5e28516a201073e5b43d186084e4e1777" "20200511193529.545":
+  entity controller at 1( 0) + 0 on 546;
+  architecture arch of controller at 16( 369) + 0 on 547;
+file . "GDC_tb.vhdl" "0171b715c7099d1854a6585b279e82347806e0a7" "20200511193529.672":
+  entity gdc_tb at 1( 0) + 0 on 552;
+  architecture arch of gdc_tb at 7( 74) + 0 on 553;
