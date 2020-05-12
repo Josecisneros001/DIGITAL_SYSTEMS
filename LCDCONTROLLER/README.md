@@ -24,9 +24,11 @@
 
 ### And when the initialization process is not running. the input is equal to the output since these are equalized in the clock transitions. At each clock transition, the output vector is being written to the output file regardless of whether it has changed or not, as is the example of the last 3 ticks of the simulation. This was thought in order to take into account the cases in which you want to send the same character several times in a row.  
 ### [Output](output.txt)
+### Signals in base10
 ![Signals](OutputTB2.png)
 
-### Among other relevant information to understand how the output file is written, if rs = '0' it is known that it is being written in the instruction register, if it is equal to 1, data is being sent as such. And they are changed to integer so that it is interpreted well by javascript in the page simulator:  
+### Among other relevant information to understand how the output file is written, if rs = '0' it is known that it is being written in the instruction register, if it is equal to 1, data is being sent as such. 
 ### instr (int) or data (int) depending on the record you are writing to.   
+### And they are changed to base10 so that it is interpreted well by the javascript simulator in the page:  
 ### https://www.bobtech.ro/tutoriale/componente-electronice/57-lcd-16x2-simulator
 
