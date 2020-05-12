@@ -17,10 +17,10 @@ end lcd;
 
 architecture arch of lcd is
     file fout : TEXT open WRITE_MODE is "output.txt";
-    signal state : integer range 1 to 5 := 1;
+    signal state : integer range 1 to 6 := 1;
 begin
     en <= clk;
-    init : process(state,rs,rw,dataIn)
+    init : process(state)
     variable current_line : line;
     begin
         case(state) is 
@@ -44,7 +44,7 @@ begin
             rwOut <= '0';
             dataOut <= x"06";
             write(current_line, string'("instr(0x06);"));
-        when 5 =>
+        when 5|6 =>
             rsOut <= rs;
             rwOut <= rw;
             dataOut <= dataIn;
@@ -66,6 +66,10 @@ begin
                 state <= state + 1;
             elsif reset = '0' then
                 state <= 1;
+            elsif state = 5 then
+                state <= state + 1;
+            elsif state = 6 then
+                state <= 5;
             end if;
         end if;
     end process;
