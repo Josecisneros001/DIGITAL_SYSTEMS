@@ -16,7 +16,7 @@ data(69);
 data(82);
 data(79);
 data(83);
-instr(0);
+instr(1);
 instr(0x01);
 instr(0x01);
 instr(0x38);
